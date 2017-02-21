@@ -1,0 +1,18 @@
+h1{
+    font-family: "Comic Sans MS"
+}
+h2{
+    font-family: "Comic Sans MS"
+}
+p{
+    font-family: "Comic Sans MS"
+}
+input{
+    margin-top: 5px;
+}
+#btn-signUp{
+     margin-top: 15px;
+}
+.btn-inCreatePoll{
+    margin-top: 15px; 
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <div class="container-fluid">
+    <body>
+        <center><h2>Login first to create a poll</h2>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+        
+        <form acton="/login" method="post" >
+            <input type="text" name="user" placeholder="username" required minlength=3/>
+            <br>
+            <input type="password" name="password" placeholder="password" required/>
+            <br>
+            <input type="submit" value="Login" id="submit"  class="btn btn-primary mycustombtn"/>
+        </form>
+            
+            <br>
+            <br>
+            <center>
+            <h2>Don't have an account?</h2>
+            <h2>Sign up here below!</h2>
+            <form action="/signUp" method="post">
+            <input type="text" name="newUser" placeholder="username" required/ minlength=5>
+            <br>
+            <input type="password" name="newPass" placeholder="password" required minlength=5/>
+            <br>
+            <input type="password" name="newPass2" placeholder="comfirm password" required minlength=5/>
+            <br>
+            <input type="e-mail" name="e-mail" placeholder="e-mail address"/>
+            <br>
+            <input type="submit" id="btn-signUp" value="Sign Up" class="btn btn-success mycustombtn" />
+        </form> 
+        </center> 
+    </body>
+    </div>
+</html>

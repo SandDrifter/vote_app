@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="public/createPoll.js" type="text/javascript"></script>
+    <div class="container-fluid">
+    <body>
+        <center>
+        <h1 >Create poll by doing something here</h1>
+        
+        <div id="pollArea">
+            <br>
+            <input type="text" name="pollTitle" id="pollTitle" placeholder="Enter poll title here"/>
+            <br>
+            <br>
+            <p id="pollPlace"></p>
+            <input type="text" name="poll" id="newPollText" placeholder="Enter poll answer here"/>
+            <br>
+            <button onclick="addPoll()" class="btn btn-primary mycustombtn btn-inCreatePoll btn-block">Add Poll Answer</button>
+            <br>
+            <button name="pollPost" onclick="postPolls()" class="btn btn-success mycustombtn btn-inCreatePoll btn-block">Post a Poll</button>
+        </div>
+        <p id="postLink">Your post link:</p>
+         </center>
+    </body>
+    </div>
+</html>
